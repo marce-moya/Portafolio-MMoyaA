@@ -12,17 +12,17 @@ export default function App() {
       <div className="flex">
         <div className="flex-1">
           <Image
-            alt="Home Office"
+            alt="Proyectos"
             className="object-cover w-full h-full"
-            src="/image/homeoffice.png"
+            src="/image/GestiónProactiva.png"
           />
         </div>
         <div className="flex-1 p-4">
           <p className="text-large text-black/80">
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </div>
-      </div>
+      </div>                                                                                                                                                                                                                                                                
       
         <CardFooter className="justify-end before:bg-white/10 border-white/20 border-1 overflow-hidden py-2 w-full shadow-small z-10">
           <Button className="text-large text-black bg-orange-300/20" variant="flat" color="default" radius="lg" size="sm">
