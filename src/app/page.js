@@ -1,11 +1,16 @@
 import React from 'react'
-import ClientButton from '@/components/boton'
+import ClientButton from '../components/Boton'
+import DateDisplay from '../components/Date'
 
 const page = () => {
   return (
     <>
-    <div>Página de inicio</div>
-    <ClientButton />
+    <div className='text-center mx-auto m-6'>
+      <div>Página de inicio</div>
+      <DateDisplay />
+      <ClientButton text="primer botón"/>
+      <ClientButton text="segundo botón"/>
+    </div>
     </>
   )
 }
