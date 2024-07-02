@@ -4,4 +4,4 @@ const nextConfig = {
     basePath: process.env.NODE_ENV === 'production' ? '/Portafolio-MMoyaA' : '',
   };
   
-  module.exports = nextConfig;
+  export default nextConfig;
