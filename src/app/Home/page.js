@@ -2,8 +2,8 @@ import React from 'react';
 import { Image } from '@nextui-org/react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
-import ClientButton from '../components/Boton';
-import DateDisplay from '../components/Date';
+import ClientButton from '../../components/Boton';
+import DateDisplay from '../../components/Date';
 
 const Home = () => {
     return (

@@ -1,4 +1,5 @@
 import React from 'react';
+import "../app/globals.css"
 import { Image } from '@nextui-org/react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
